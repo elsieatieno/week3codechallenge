@@ -44,7 +44,7 @@ function displayInfo(movie){
 }
 
 function buyTicket(){
-    const tickets= document.getElementById('available');
+    let tickets= document.getElementById('available');
     let availableTickets = parseInt(tickets.textContent.split(' ')[2]);
     if (availableTickets > 0) {
         availableTickets--;
